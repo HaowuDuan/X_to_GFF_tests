@@ -15,15 +15,17 @@ $$D_{g}(\xi,t) = \frac{1}{\xi^2} \int_{0}^{1} dx \, |\xi| \cdot D_g(x,\xi,t)$$
 
 where we have,
 
-\begin{equation}
+$$
 H_g(x,\xi,t) = H_g^{DD}(x,\xi,t) + |\xi| \cdot D_g(x,\xi,t)
-\end{equation}
+$$
 
-\begin{equation}
+$$
 E_g(x,\xi,t) = -|\xi| \cdot D_g(x,\xi,t)
-\end{equation}
+$$
 
 
 ## Compton Form Factors to GFF
 
-1,*Images lives on 2-d lattice*: Both 
+1,*Images lives on 2-d lattice*: Both $\mathcal{H}/\mathcal{E}(\xi, t)$, and $A/D_{g}(\xi,t)$ lives on the $\xi-t$ lattice, where $\xi$ is a function of energy. 
+
+2, *Mask for missing value*: we should be able to handle missing value in some part of the phase space on the Compton Form Factor side but GFFs has no missing value because they are entirely from reconstruction.
