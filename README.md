@@ -36,7 +36,7 @@ $$
 
 1, *We start with no missing data points*: This is to avoid using Graphic neural network, which is more expensive when it comes to computational resources.
 
-2, *Naively, we fill the missing phase space with zeros*: add an extra binary channel to indicate where there are missing data. 
+2, *Naively, we fill the missing phase space with zeros*: add an extra binary channel to indicate where there are missing data. But we can also randomly choose some part of the phase space and fill it with zero so the network will learn that zero might not mean Xsection is zero.
 
 3, *Partial convolution*: Convolution operation that ignores masked regions. This can be tested on model generated data.
 
