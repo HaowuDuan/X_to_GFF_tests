@@ -42,3 +42,9 @@ $$
 
 
 ![Network Architecture](./figures/nn1.svg)
+
+## To-Do List
+
+- [ ] Data generation
+- [ ] Training without missing value
+- [ ] Training with missing value
