@@ -26,6 +26,19 @@ $$
 
 ## Compton Form Factors to GFF
 
-1, *Images lives on 2-d lattice*: Both $\mathcal{H}/\mathcal{E}(\xi, t)$, and $A/D_{g}(\xi,t)$ lives on the $\xi-t$ lattice, where $\xi$ is a function of energy. 
+1, *Images lives on 2-d lattice*: Both $\mathcal{H}/\mathcal{E}(\xi, t)$, and $A/D_{g}(\xi,t)$ lives on the $\xi-t$ lattice, where $\xi$ is a function of energy. We are currently setting $N=50$.
 
-2, *Mask for missing value*: we should be able to handle missing value in some part of the phase space on the Compton Form Factor side but GFFs has no missing value because they are entirely from reconstruction.
+2, *GFFs only depends on t*: Both $A_{g}(t)$, and $D_{g}(t)$ only depends on t. So our output is 2 by 50, while input is 50 by 50 lattice.
+
+3, *Mask for missing value*: we should be able to handle missing value in some part of the phase space on the Compton Form Factor side but GFFs has no missing value because they are entirely from reconstruction. There are multiple approach to experiment with.
+
+## Handle missing data points
+
+1, *We start with no missing data points*: This is to avoid using Graphic neural network, which is more expensive when it comes to computational resources.
+
+2, *Naively, we fill the missing phase space with zeros*: add an extra binary channel to indicate where there are missing data. 
+
+3, *Partial convolution*: Convolution operation that ignores masked regions. This can be tested on model generated data.
+
+
+
