@@ -41,4 +41,4 @@ $$
 3, *Partial convolution*: Convolution operation that ignores masked regions. This can be tested on model generated data.
 
 
-
+![Network Architecture](./figures/nn1.svg)
