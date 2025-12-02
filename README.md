@@ -61,3 +61,7 @@ There are two improvements we can make, the first is to increase the mask percen
 
 5, All model performance decreases at small t (|t|< 1), this is due to the fact that t dependence is completely taken over by the mass and there is no physics there. 
 
+6, A loss function with interpretion 
+
+7, The maximal level of random masking that we can push.
+
