@@ -45,6 +45,6 @@ $$
 
 ## To-Do List
 
-- [ ] Data generation
-- [ ] Training without missing value
-- [ ] Training with missing value
+- [X] Data generation
+- [X] Training without missing value
+- [X] Training with missing value
