@@ -55,7 +55,7 @@ $$
 2, There are several ways to push the network performance. One is extroploation, but the risk is that there is no solid approach to improve extroploation, maybe I can do some digging. The next direction is to mask data and data augementation. 
 
 3, The test: a data set created by masking >50% of data entries. 
-There are two improvements we can make, the first is to increase the mask percentage during the training and on top of that we can increase data augementation level. 
+There are two improvements we can make, the first is to increase the mask percentage during the training and on top of that we can increase data augementation level. Both of two direction can add randomness, random augementation level and random mask percentage. 
 
 4, We write a code to map the experimental data to our grid. 
 
