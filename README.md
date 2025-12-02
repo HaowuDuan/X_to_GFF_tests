@@ -48,3 +48,14 @@ $$
 - [X] Data generation
 - [X] Training without missing value
 - [X] Training with missing value
+
+## Summary of what's going on and what's next
+1, For our task, all training are "good", in a sense that they all reach the loss/sample around 0.0001. Test data is not stressful enough for this network. 
+
+2, There are several ways to push the network performance. One is extroploation, but the risk is that there is no solid approach to improve extroploation, maybe I can do some digging. The next direction is to mask data and data augementation. 
+
+3, The test: a data set created by masking >50% of data entries. 
+There are two improvements we can make, the first is to increase the mask percentage during the training and on top of that we can increase data augementation level. 
+
+4, We write a code to map the experimental data to our grid. 
+
