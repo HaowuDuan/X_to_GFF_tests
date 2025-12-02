@@ -63,5 +63,5 @@ There are two improvements we can make, the first is to increase the mask percen
 
 6, A loss function with interpretion 
 
-7, The maximal level of random masking that we can push.
+7, The maximal level of random masking that we can push. A plot: relative loss vs masking level 
 
