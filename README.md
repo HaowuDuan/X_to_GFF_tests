@@ -48,6 +48,10 @@ $$
 - [X] Data generation
 - [X] Training without missing value
 - [X] Training with missing value
+- [X] Use relative loss instead of absolute loss
+- [ ] Test the effects of data augementation on fixed level of missing data
+- [ ] Maybe data augementation will improve generalization and extropolation
+- [ ] Mixed level of agementation and mask to get a general purpose model  
 
 ## Summary of what's going on and what's next
 1, For our task, all training are "good", in a sense that they all reach the loss/sample around 0.0001. Test data is not stressful enough for this network. 
